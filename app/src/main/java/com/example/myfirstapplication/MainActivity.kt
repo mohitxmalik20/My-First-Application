@@ -15,7 +15,7 @@ import com.example.myfirstapplication.ui.theme.MyFirstApplicationTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+
         enableEdgeToEdge()
         setContent {
             MyFirstApplicationTheme {
